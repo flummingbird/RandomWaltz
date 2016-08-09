@@ -4,7 +4,8 @@
 
 //Walker will;
 //Waltzer tammy;
-//Jumper nick; 
+//Jumper nick;
+Looper nick;
 Waltzer tammy;
 
 void setup() {
@@ -12,6 +13,7 @@ void setup() {
  // Create a walker object
   //will = new Walker();
   //nick = new Jumper();
+  nick  = new Looper();
   tammy = new Waltzer();
   
   background(255);
@@ -22,7 +24,7 @@ void draw() {
   //will.step();
   //will.display();
   //nick.step();
-  //nick.display();
+  nick.display();
   tammy.step();
   tammy.display();
 }
